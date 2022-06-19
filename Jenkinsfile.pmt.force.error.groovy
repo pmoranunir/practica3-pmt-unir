@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building stage!'
-                sh 'forzar_error.exe"
+                sh 'forzar_error.exe'
                 sh 'make build'
             }
         }
